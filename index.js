@@ -80,6 +80,6 @@ const notification = (message) => {
 	document.body.appendChild(shadowRoot);
   
 	setTimeout(() => {
-	  shadowRoot.remove();
+		notification.remove();
 	}, 3000);
   };
